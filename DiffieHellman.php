@@ -1,12 +1,5 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: hebingsong
- * Date: 2018/1/6
- * Time: 下午10:42
- */
-
-/**
  * Class DiffieHellman
  *
  * 之前在讲密钥配送的时候，有提到 Diffie-Hellman 密钥交换，今天来简单的谈谈它。 Diffie-Hellman 密钥交换(Diffie-Hellman key exchange)通信双方仅通过交换一些可以公开的信息就能够生成共享的数字，而这一秘密数字就可以被用作对称密码的密钥。下面先来讲讲它的步骤。
